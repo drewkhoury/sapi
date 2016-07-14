@@ -1,0 +1,26 @@
+{
+  "name": "skillslist",
+  "plural": "skillslist",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "hipchat_username": {
+      "type": "string",
+      "required": true
+    },
+    "skill": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
